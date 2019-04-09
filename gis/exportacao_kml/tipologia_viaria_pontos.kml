@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Folder><name>tipologia_viaria_pontos</name>
+  <Placemark>
+      <Point><coordinates>-46.5413587154933,-23.7030803586517</coordinates></Point>
+  </Placemark>
+  <Placemark>
+      <Point><coordinates>-46.5409015138024,-23.7051346323419</coordinates></Point>
+  </Placemark>
+  <Placemark>
+      <Point><coordinates>-46.5448119772126,-23.7102113888011</coordinates></Point>
+  </Placemark>
+  <Placemark>
+      <Point><coordinates>-46.5474733048558,-23.7016851376173</coordinates></Point>
+  </Placemark>
+  <Placemark>
+      <Point><coordinates>-46.5444116798551,-23.7031171419523</coordinates></Point>
+  </Placemark>
+</Folder>
+</Document></kml>
