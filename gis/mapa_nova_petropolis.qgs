@@ -18,13 +18,13 @@
     <layer-tree-layer expanded="1" checked="Qt::Checked" id="perimetro_bairro_inteiro20190408002825002" name="Bairro Nova Petrópolis">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="viario_perimetro_cortado_3198320190420220801571" name="Sistema viário">
+    <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="Sistema_viário__copiar20190421115631278" name="Sistema viário (vazios)">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer expanded="1" checked="Qt::Checked" id="Sistema_viário__copiar20190421115631278" name="Sistema viário (vazios)">
+    <layer-tree-layer expanded="0" checked="Qt::Checked" id="viario_perimetro_cortado_3198320190420220801571" name="Sistema viário">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer expanded="1" checked="Qt::Checked" id="cheios_vazios20190407224002470" name="Relação entre espaços">
+    <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="cheios_vazios20190407224002470" name="Relação entre espaços">
       <customproperties/>
     </layer-tree-layer>
     <layer-tree-layer expanded="1" checked="Qt::Checked" id="Relação_entre_espaços__copiar20190407230355111" name="Uso do Solo">
@@ -53,10 +53,10 @@
   <mapcanvas>
     <units>meters</units>
     <extent>
-      <xmin>341749.74158272455679253</xmin>
-      <ymin>7376347.38240232318639755</ymin>
-      <xmax>343989.31600263266591355</xmax>
-      <ymax>7378259.33379078656435013</ymax>
+      <xmin>341790.48250949737848714</xmin>
+      <ymin>7376407.93642661441117525</ymin>
+      <xmax>344037.46526676061330363</xmax>
+      <ymax>7378245.79661491047590971</ymax>
     </extent>
     <rotation>0</rotation>
     <projections>1</projections>
@@ -176,19 +176,19 @@
         <legendlayerfile isInOverview="0" layerid="perimetro_bairro_inteiro20190408002825002" visible="1"/>
       </filegroup>
     </legendlayer>
-    <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="Sistema viário" showFeatureCount="0">
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Sistema viário (vazios)" showFeatureCount="0">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile isInOverview="0" layerid="Sistema_viário__copiar20190421115631278" visible="0"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="Sistema viário" showFeatureCount="0">
       <filegroup open="false" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="viario_perimetro_cortado_3198320190420220801571" visible="0"/>
+        <legendlayerfile isInOverview="0" layerid="viario_perimetro_cortado_3198320190420220801571" visible="1"/>
       </filegroup>
     </legendlayer>
-    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Sistema viário (vazios)" showFeatureCount="0">
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Relação entre espaços" showFeatureCount="0">
       <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="Sistema_viário__copiar20190421115631278" visible="1"/>
-      </filegroup>
-    </legendlayer>
-    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Relação entre espaços" showFeatureCount="0">
-      <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="cheios_vazios20190407224002470" visible="1"/>
+        <legendlayerfile isInOverview="0" layerid="cheios_vazios20190407224002470" visible="0"/>
       </filegroup>
     </legendlayer>
     <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Uso do Solo" showFeatureCount="0">
