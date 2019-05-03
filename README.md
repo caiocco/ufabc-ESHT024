@@ -4,6 +4,8 @@ Para visualizar os produtos finais, [clique aqui](https://github.com/caiocco/ufa
 
 ![Logotipo do BPT](misc/logotipo02.png?raw=true)
 
+--------
+
 **Observação:** este trabalho utilizou fontes como [Canossa](http://fontsgeek.com/fonts/Canossa-Bold) e [Swis721 BT](https://www.cufonfonts.com/font/swis721-bt). É de inteira responsabilidade do(a) interessado(a) obter as fontes caso deseje preservar a formatação original. Os links foram fornecidos como mera gentileza.
 
 **Observação 2:** o repositório contém apenas material ligado à PARTE I.
@@ -36,6 +38,8 @@ Para visualizar os produtos finais, [clique aqui](https://github.com/caiocco/ufa
     and USGS ASCII DEM.
     [caio@localhost ~]$
 
+-----
+
     caio@skywall:~> rpm -qi virtualbox
     Name        : virtualbox
     Version     : 5.2.24
@@ -63,7 +67,9 @@ Para visualizar os produtos finais, [clique aqui](https://github.com/caiocco/ufa
     caio@skywall:~> 
 
 
---------
+------------------
+
+------------------
 
 Uso do Solo Urbano
 ==================
