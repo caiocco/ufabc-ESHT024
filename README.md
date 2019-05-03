@@ -2,6 +2,8 @@ Buscando facilitar o uso do repositório, o arquivo ".doc" com o roteiro foi ada
 
 Para visualizar os produtos finais, [clique aqui](https://github.com/caiocco/ufabc-ESHT024/tree/master/gis/produtos). A grosso modo, o trabalho foi dividido em três etapas, sendo que a terceira delas foi a última, contemplando a elaboração de uma ou mais pranchas. Os arquivos fornecidos podem ter sido convertidos e/ou redimensionados para redução do consumo de banda e/ou aderência aos termos do GitHub.
 
+![Logotipo do BPT](misc/logotipo02.png?raw=true)
+
 --------
 
 Uso do Solo Urbano
