@@ -4,6 +4,65 @@ Para visualizar os produtos finais, [clique aqui](https://github.com/caiocco/ufa
 
 ![Logotipo do BPT](misc/logotipo02.png?raw=true)
 
+**Observação:** este trabalho utilizou fontes como [Canossa](http://fontsgeek.com/fonts/Canossa-Bold) e [Swis721 BT](https://www.cufonfonts.com/font/swis721-bt). É de inteira responsabilidade do(a) interessado(a) obter as fontes caso deseje preservar a formatação original. Os links foram fornecidos como mera gentileza.
+
+**Observação 2:** o repositório contém apenas material ligado à PARTE I.
+
+**Observação 3:** arquivos finais finalizados utilizando QGIS 3.6.2 rodando numa máquina virtual com [Fedora](https://getfedora.org/) 29 Workstation (1 núcleo Intel® Xeon® CPU E5-1607 0 @ 3.00GHz, 2 GB de RAM alocados), hospedeiro executando [openSUSE Leap](https://software.opensuse.org/distributions/leap) 42.3:
+
+    [caio@localhost ~]$ rpm -qi qgis
+    Name        : qgis
+    Version     : 3.6.2
+    Release     : 1.fc29
+    Architecture: x86_64
+    Install Date: qua 01 mai 2019 17:26:49 -03
+    Group       : Unspecified
+    Size        : 145541810
+    License     : GPLv2+
+    Signature   : RSA/SHA1, sex 19 abr 2019 13:14:24 -03, Key ID 82e52bbbebf1b268
+    Source RPM  : qgis-3.6.2-1.fc29.src.rpm
+    Build Date  : sex 19 abr 2019 13:10:41 -03
+    Build Host  : copr-builder-141058875.novalocal
+    Relocations : (not relocatable)
+    URL         : http://www.qgis.org
+    Summary     : A user friendly Open Source Geographic Information System
+    Description :
+    Geographic Information System (GIS) manages, analyzes, and displays
+    databases of geographic information. QGIS supports shape file
+    viewing and editing, spatial data storage with PostgreSQL/PostGIS, projection
+    on-the-fly, map composition, and a number of other features via a plugin
+    interface. QGIS also supports display of various geo-referenced raster and
+    Digital Elevation Model (DEM) formats including GeoTIFF, Arc/Info ASCII Grid,
+    and USGS ASCII DEM.
+    [caio@localhost ~]$
+
+    caio@skywall:~> rpm -qi virtualbox
+    Name        : virtualbox
+    Version     : 5.2.24
+    Release     : 66.1
+    Architecture: x86_64
+    Install Date: Sáb 26 Jan 2019 23:29:49 -02
+    Group       : System/Emulators/PC
+    Size        : 36512391
+    License     : GPL-2.0-or-later
+    Signature   : RSA/SHA256, Qui 17 Jan 2019 08:19:11 -02, Key ID b88b2fd43dbdc284
+    Source RPM  : virtualbox-5.2.24-66.1.src.rpm
+    Build Date  : Qui 17 Jan 2019 08:17:13 -02
+    Build Host  : lamb64
+    Relocations : (not relocatable)
+    Packager    : http://bugs.opensuse.org
+    Vendor      : openSUSE
+    URL         : http://www.virtualbox.org/
+    Summary     : VirtualBox is an Emulator
+    Description :
+    VirtualBox is an extremely feature rich, high performance product
+    for enterprise customers, it is also the only professional solution
+    that is freely available as Open Source Software under the terms of the
+    GNU Public License (GPL).
+    Distribution: openSUSE Leap 42.3
+    caio@skywall:~> 
+
+
 --------
 
 Uso do Solo Urbano
