@@ -187,10 +187,10 @@
   <mapcanvas name="theMapCanvas" annotationsVisible="1">
     <units>meters</units>
     <extent>
-      <xmin>341940.31458432087674737</xmin>
-      <ymin>7377008.94585214182734489</ymin>
-      <xmax>343776.3950511128641665</xmax>
-      <ymax>7377825.15568433329463005</ymax>
+      <xmin>341727.13166001613717526</xmin>
+      <ymin>7377143.03886621631681919</ymin>
+      <xmax>343792.72218515712302178</xmax>
+      <ymax>7378061.27492743171751499</ymax>
     </extent>
     <rotation>0</rotation>
     <destinationsrs>
@@ -4262,7 +4262,7 @@ def my_form_open(diálogo, camada, feição):
       <previewExpression>"ID"</previewExpression>
       <mapTip></mapTip>
     </maplayer>
-    <maplayer autoRefreshEnabled="0" geometry="Polygon" simplifyMaxScale="1" maxScale="0" simplifyAlgorithm="0" refreshOnNotifyMessage="" autoRefreshTime="0" readOnly="0" type="vector" hasScaleBasedVisibilityFlag="0" simplifyDrawingHints="1" simplifyLocal="1" refreshOnNotifyEnabled="0" labelsEnabled="1" styleCategories="AllStyleCategories" minScale="1e+08" simplifyDrawingTol="1">
+    <maplayer autoRefreshEnabled="0" geometry="Polygon" simplifyMaxScale="1" maxScale="0" simplifyAlgorithm="0" refreshOnNotifyMessage="" autoRefreshTime="0" readOnly="0" type="vector" hasScaleBasedVisibilityFlag="0" simplifyDrawingHints="1" simplifyLocal="1" refreshOnNotifyEnabled="0" labelsEnabled="0" styleCategories="AllStyleCategories" minScale="1e+08" simplifyDrawingTol="1">
       <extent>
         <xmin>341843.98209895601030439</xmin>
         <ymin>7376451.69500252604484558</ymin>
@@ -4294,6 +4294,15 @@ def my_form_open(diálogo, camada, feição):
         <type></type>
         <title></title>
         <abstract></abstract>
+        <contact>
+          <name></name>
+          <organization></organization>
+          <position></position>
+          <voice></voice>
+          <fax></fax>
+          <email></email>
+          <role></role>
+        </contact>
         <links/>
         <fees></fees>
         <encoding></encoding>
@@ -4309,7 +4318,15 @@ def my_form_open(diálogo, camada, feição):
             <geographicflag>false</geographicflag>
           </spatialrefsys>
         </crs>
-        <extent/>
+        <extent>
+          <spatial minz="0" maxx="0" minx="0" maxy="0" maxz="0" crs="" miny="0" dimensions="2"/>
+          <temporal>
+            <period>
+              <start></start>
+              <end></end>
+            </period>
+          </temporal>
+        </extent>
       </resourceMetadata>
       <provider encoding="UTF-8">ogr</provider>
       <vectorjoins/>
@@ -4575,12 +4592,12 @@ def my_form_open(diálogo, camada, feição):
       <featureBlendMode>0</featureBlendMode>
       <layerOpacity>0.69</layerOpacity>
       <LinearlyInterpolatedDiagramRenderer lowerValue="0" upperValue="0" upperHeight="50" diagramType="Histogram" lowerWidth="0" upperWidth="50" classificationAttributeExpression="" lowerHeight="0" attributeLegend="1">
-        <DiagramCategory diagramOrientation="Up" penWidth="0" sizeScale="3x:0,0,0,0,0,0" scaleDependency="Area" minimumSize="0" lineSizeScale="3x:0,0,0,0,0,0" penColor="#000000" rotationOffset="270" width="15" minScaleDenominator="inf" scaleBasedVisibility="0" penAlpha="255" maxScaleDenominator="1e+08" labelPlacementMethod="XHeight" enabled="0" sizeType="MM" backgroundColor="#ffffff" backgroundAlpha="255" opacity="1" height="15" barWidth="5" lineSizeType="MM">
+        <DiagramCategory diagramOrientation="Up" penWidth="0" sizeScale="3x:0,0,0,0,0,0" scaleDependency="Area" minimumSize="0" lineSizeScale="3x:0,0,0,0,0,0" penColor="#000000" rotationOffset="270" width="15" minScaleDenominator="0" scaleBasedVisibility="0" penAlpha="255" maxScaleDenominator="1e+08" labelPlacementMethod="XHeight" enabled="0" sizeType="MM" backgroundColor="#ffffff" backgroundAlpha="255" opacity="1" height="15" barWidth="5" lineSizeType="MM">
           <fontProperties style="" description="Droid Sans,10,-1,5,50,0,0,0,0,0"/>
           <attribute color="#000000" field="" label=""/>
         </DiagramCategory>
       </LinearlyInterpolatedDiagramRenderer>
-      <DiagramLayerSettings dist="0" placement="0" obstacle="0" zIndex="0" showAll="1" linePlacementFlags="10" priority="0">
+      <DiagramLayerSettings dist="0" placement="0" obstacle="0" zIndex="0" showAll="1" linePlacementFlags="2" priority="0">
         <properties>
           <Option type="Map">
             <Option name="name" value="" type="QString"/>
@@ -4761,8 +4778,26 @@ def my_form_open(diálogo, camada, feição):
 ]]></editforminitcode>
       <featformsuppress>0</featformsuppress>
       <editorlayout>generatedlayout</editorlayout>
-      <editable/>
-      <labelOnTop/>
+      <editable>
+        <field name="CheioVazio" editable="1"/>
+        <field name="FID" editable="1"/>
+        <field name="Face_m2" editable="1"/>
+        <field name="Gabarito" editable="1"/>
+        <field name="Lotes" editable="1"/>
+        <field name="TipoUso" editable="1"/>
+        <field name="ZonaComp" editable="1"/>
+        <field name="ZonaPar" editable="1"/>
+      </editable>
+      <labelOnTop>
+        <field name="CheioVazio" labelOnTop="0"/>
+        <field name="FID" labelOnTop="0"/>
+        <field name="Face_m2" labelOnTop="0"/>
+        <field name="Gabarito" labelOnTop="0"/>
+        <field name="Lotes" labelOnTop="0"/>
+        <field name="TipoUso" labelOnTop="0"/>
+        <field name="ZonaComp" labelOnTop="0"/>
+        <field name="ZonaPar" labelOnTop="0"/>
+      </labelOnTop>
       <widgets/>
       <previewExpression>COALESCE( "FID", '&lt;NULL>' )</previewExpression>
       <mapTip></mapTip>
@@ -13420,7 +13455,7 @@ def my_form_open(diálogo, camada, feição):
         <LabelFont style="" description="Swis721 BT,72,-1,5,50,0,0,0,0,0"/>
         <FontColor blue="255" red="255" green="255"/>
       </LayoutItem>
-      <LayoutItem position="40.085,1125.15,mm" id="" referencePoint="0" uuid="{802c425e-90a3-4966-84fc-caa8691d94ba}" frame="false" outlineWidthM="0.3,mm" halign="1" htmlState="0" labelText="Uso do Solo Urbano, 1º Quadrimestre de 2019&#xa;Profa. Mariana Mencio e Profa. Luciana N. Ferrara&#xa;&#xa;Caio César C. Ortega, Gercidio Valeriano, Rodolfo Carlos" groupUuid="" zValue="55" templateUuid="{802c425e-90a3-4966-84fc-caa8691d94ba}" positionOnPage="40.085,541.15,mm" type="65641" visibility="1" valign="32" frameJoinStyle="miter" size="160.728,29.5293,mm" marginX="1" marginY="1" blendMode="0" opacity="1" itemRotation="0" background="false" positionLock="true" excludeFromExports="0">
+      <LayoutItem position="40.085,1125.15,mm" id="" referencePoint="0" uuid="{802c425e-90a3-4966-84fc-caa8691d94ba}" frame="false" outlineWidthM="0.3,mm" halign="1" htmlState="0" labelText="Uso do Solo Urbano, 1º Quadrimestre de 2019&#xa;Profa. Mariana Mencio e Profa. Luciana N. Ferrara&#xa;&#xa;Caio César Carvalho Ortega, Gercidio Jr. Valeriano Pereira, Rodolfo Carlos Dias Mesquita" groupUuid="" zValue="55" templateUuid="{802c425e-90a3-4966-84fc-caa8691d94ba}" positionOnPage="40.085,541.15,mm" type="65641" visibility="1" valign="32" frameJoinStyle="miter" size="160.728,29.5293,mm" marginX="1" marginY="1" blendMode="0" opacity="1" itemRotation="0" background="false" positionLock="true" excludeFromExports="0">
         <FrameColor blue="0" red="0" alpha="255" green="0"/>
         <BackgroundColor blue="255" red="255" alpha="255" green="255"/>
         <LayoutObject>
@@ -13786,7 +13821,7 @@ def my_form_open(diálogo, camada, feição):
           <customproperties/>
         </LayoutObject>
       </LayoutItem>
-      <LayoutItem position="40,540,mm" id="" referencePoint="0" uuid="{20e8b31a-670e-4977-9849-d9a4a1e8eda0}" frame="false" outlineWidthM="0.3,mm" halign="1" htmlState="0" labelText="Uso do Solo Urbano, 1º Quadrimestre de 2019&#xa;Profa. Mariana Mencio e Profa. Luciana N. Ferrara&#xa;&#xa;Caio César C. Ortega, Gercidio Valeriano, Rodolfo Carlos" groupUuid="" zValue="38" templateUuid="{20e8b31a-670e-4977-9849-d9a4a1e8eda0}" positionOnPage="40,540,mm" type="65641" visibility="1" valign="32" frameJoinStyle="miter" size="160.728,29.5293,mm" marginX="1" marginY="1" blendMode="0" opacity="1" itemRotation="0" background="false" positionLock="true" excludeFromExports="0">
+      <LayoutItem position="40,540,mm" id="" referencePoint="0" uuid="{20e8b31a-670e-4977-9849-d9a4a1e8eda0}" frame="false" outlineWidthM="0.3,mm" halign="1" htmlState="0" labelText="Uso do Solo Urbano, 1º Quadrimestre de 2019&#xa;Profa. Mariana Mencio e Profa. Luciana N. Ferrara&#xa;&#xa;Caio César Carvalho Ortega, Gercidio Jr. Valeriano Pereira, Rodolfo Carlos Dias Mesquita" groupUuid="" zValue="38" templateUuid="{20e8b31a-670e-4977-9849-d9a4a1e8eda0}" positionOnPage="40,540,mm" type="65641" visibility="1" valign="32" frameJoinStyle="miter" size="160.728,29.5293,mm" marginX="1" marginY="1" blendMode="0" opacity="1" itemRotation="0" background="false" positionLock="true" excludeFromExports="0">
         <FrameColor blue="0" red="0" alpha="255" green="0"/>
         <BackgroundColor blue="255" red="255" alpha="255" green="255"/>
         <LayoutObject>
